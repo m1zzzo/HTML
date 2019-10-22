@@ -1,0 +1,25 @@
+
+
+.OnliRed{
+    color: brown;
+    list-style: upper-roman;
+}
+
+.List-1{
+    list-style: url(images/1.png);
+    color: orange;
+}
+
+.RedABC{
+    color: brown;
+    list-style: lower-alpha;
+}
+.List-2{
+    list-style: url(images/2.png);
+    color: chartreuse;
+}
+
+.List-3{
+    list-style: url(images/3.png);
+    color: blue;
+}

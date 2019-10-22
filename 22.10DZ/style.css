@@ -1,0 +1,7 @@
+/* list-style: upper-roman; */
+/* list-style: lower-alpha; */
+/* font-family:Comic Sans MS; шрифт */
+
+.Alpha{
+    list-style: lower-alpha;
+}
