@@ -1,0 +1,15 @@
+.picture{
+    width: 500px;
+     /* height: 400px;  */
+    border: 2px rgb(97, 97, 97) solid;
+    border-radius: 100px;
+    padding: 5px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+    filter: grayscale(60%);
+}
+
+.picture:hover{
+    filter: none;
+}
