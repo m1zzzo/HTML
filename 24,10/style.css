@@ -1,0 +1,18 @@
+.table-1{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.table-1 td{
+    border: 7px gold solid;
+    padding:  5px;
+    vertical-align:  top;
+}
+
+.table-1 tr:nth-child(odd){
+    background: salmon;
+}
+
+.table-1 tr:nth-child(even){
+    background: aqua;
+}
