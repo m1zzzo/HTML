@@ -1,0 +1,55 @@
+
+
+.block{
+    width: 100px;
+    height: 100px;
+    background: #ddd;
+}
+
+.red{background: red; position: static;}
+.green{background: green; position: absolute; top: 50px; left: 50px;}
+.blue{background: blue;position: relative; top: -120px; left: 20px;}
+.yellow{background: yellow;position: fixed;bottom: 20px; right:20 }
+.black{background: black;width: 100%;position :static;top:0;left:0;
+}
+.aqua{width: 50px;height: 20px;background: aqua; position: absolute;bottom: 0;right: 0;}
+
+.main-menu{
+    background: #ddd;
+}
+
+.main-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-menu li{
+    position: relative;
+}
+
+.main-menu>ul{
+    display: flex;
+}
+
+.main-menu ul a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.main-menu ul ul{
+    display: none;
+    position: absolute;
+    background: #ddd;
+}
+
+.main-menu ul ul ul{
+top: 0;
+left: 100%;
+}
+
+.main-menu li:hover>ul{
+display: block;
+}
