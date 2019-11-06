@@ -1,0 +1,16 @@
+.list{
+    list-style: none;
+}
+
+.list li::before{
+    content: "\f054";
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900;
+    font-size: .7em;
+    margin-right: 5px;
+}
+
+.turn:hover {
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    transform: rotate(180deg);
+   }
