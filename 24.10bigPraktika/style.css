@@ -7,10 +7,9 @@
 }
 
 table {
-    border-collapse: rgb(185, 185, 185);
+    border: 3px rgb(74, 75, 74) solid;
     height: 500px;
     width: 750px;
-    
     border-collapse: collapse;
 }
 
@@ -28,6 +27,34 @@ span{
     color: aqua;
 }
 
+button{
+    border-radius:  5px;
+}
+
 /* table tr:nth-child(odd){
     background: rgb(129, 129, 129);
 } */
+
+tfoot{
+    background: rgb(227, 227, 227);
+}
+
+table tbody td:nth-last-child(even){
+    background: rgb(235, 235, 235);
+}
+
+table tbody td:nth-last-child(odd){
+    background: rgb(227, 227, 227);
+}
+
+font-size{
+    font-size: 30px;
+}
+tbody{
+    text-align: center
+}
+
+tfoot
+{
+    text-align: center
+}

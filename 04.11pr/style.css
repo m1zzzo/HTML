@@ -13,7 +13,7 @@ body{
 
 .block{
     margin: 20px;
-    border:  10px gainsboro solid;
+    border:  10px rgb(42, 42, 42) solid;
     position: relative;
 }
 
@@ -25,30 +25,25 @@ body{
     left: 0;
     width: 100%;
 }
-
-
-.Man{
-    width: 350px;
-    height: 500px;
-    background-size:cover;
-
+.block:hover .firstdiv{
+ opacity: .7;
 }
 
-.Home{
-    border: 10px gainsboro  ;
-    width: 350px;
-    height: 500px;
-    background-size:cover;
+.firstdiv{
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0;
     position: absolute;
-    top: 10px;
-    left: 400px;
+    top: 0;
+}
+.OnliRed{
+    color: red;
+    font-size: 30px;
+}
+h2{
+    font-size: 50px;
+    text-align:center;
 }
 
-.Girl{
-    width: 350px;
-    height: 500px;
-    background-size:cover;
-    position: absolute;
-    top: 10px;
-    left: 800px;
-}
+
