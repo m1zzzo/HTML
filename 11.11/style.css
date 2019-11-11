@@ -1,0 +1,53 @@
+
+body{
+    background: url(konoha.jpg)no-repeat;
+    background-size: 100%;
+}
+
+.suske{
+    width: 300px;
+    height: 300px;
+    animation: go 5s;
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+}
+
+.naruto{
+    width: 300px;
+    height: 300px;
+    animation: go2 6s;
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
+
+@keyframes go{
+    0%{
+        /* margin-left: 0; */
+    }
+    50%{
+        /* margin-left: 40%; */
+        /* margin-top: 0; */
+    }
+    100%{
+        margin-left: 50%;
+        /* margin-top:650px; */
+        /* margin-left: 1000px; */
+    }
+}
+
+@keyframes go2{
+    0%{
+        /* margin-left: 0; */
+    }
+    50%{
+        /* margin-left: 40%; */
+        /* margin-top: 0; */
+    }
+    100%{
+        margin-right: 35%;
+        /* margin-top:650px; */
+        /* margin-left: 1000px; */
+    }
+}

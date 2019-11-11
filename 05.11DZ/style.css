@@ -1,0 +1,24 @@
+.images{
+    display: flex;
+}
+
+.images img{
+    width: 80%;
+    display: block;
+}
+
+.block{
+    margin: 20px;
+    border:  1px rgb(177, 177, 177) solid;
+    position: relative;
+}
+
+.BotInfo{
+    color: rgb(192, 192, 196);
+    display: flex;
+}
+
+.block:hover{
+    opacity: .7;
+   }
+
