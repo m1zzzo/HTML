@@ -21,7 +21,7 @@
 }
 
 .block:hover .cubecont{
-    opacity: .7;
+    opacity: 1;
 }
 
 .BotInfo p{
@@ -32,10 +32,12 @@
 .cube{
     width: 60px;
     height: 60px;
-    background: pink;
+    background: yellow;
     transform: rotate(45deg);
-    margin: 5px;
+    margin:10px;
 }
+
+
 
 .cubecont{
     opacity: 0;
@@ -46,12 +48,64 @@
     transition: all 500ms;
 }
 
+.Transform{
+    transform: rotate(-45deg);
+}
+
+.Transform2{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.star{
+    width: 100px;
+    height: 300px;
+    position:absolute;
+    left: 150px;
+   
+}
+
+.block:hover h1{
+    color: palevioletred;
+}
+
+.cube:hover{
+    background: lawngreen;
+}
+
+h1{
+
+    font: 20px Condensed;
+    text-align: center;
+    margin: 0px 10px;
+}
+
 h2{
     text-align: center;
 }
 
-/* .star{
-    width: 50;
-    height: 150px;
-  align-content: center;
-} */
+h3{
+    text-align: left;
+    font: 20px Condensed;
+    background: rgb(234, 101, 100);
+    color: white;
+    margin: 10px 160px;
+    position: absolute;
+    left: -150px;
+    border: 2px solid rgb(234, 101, 100);
+    border-radius: 5px;
+}
+
+h4{
+    text-align: left;
+    font: 20px Condensed;
+    background: rgb(81, 177, 253);
+    color: white;
+    margin: 10px 160px;
+    position: absolute;
+    right: -150px;
+    border: 2px solid rgb(81, 177, 253);
+    border-radius: 5px;
+}
