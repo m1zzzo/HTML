@@ -1,12 +1,13 @@
 body{
     margin: 0;
+    background: #f0efee;
 }
 img{
     max-width: 100%;
 }
 
 header{
-    background: #f0efee;
+
     padding: 0%;
     margin: 0%;
 }
@@ -70,33 +71,134 @@ header a:hover{
 }
 
 .box h3{
-    text-align:center;
-    position:relative;
-    top:80px;
+text-align:center;
+position:relative;
+top:80px;
 }
 .box {
    
-    background:#FFF;
+background:#FFF;
   
 }
  
+.SmallWind{
+background: rgba(255, 255, 255, 0.596);
+width: 350px;
+height: 140px;
+border: 2px solid  rgba(255, 255, 255, 0.596);
+border-radius: 3px;
+position: absolute;
+bottom: 30px;
+left: 30px;
+
+}
+
+.SmallWind p{
+    text-align: center;
+}
+
+.SmallWind h1{
+    font: 600 30px 'Tangerine';
+    margin: 5px 5px;
+}
+
+.SmallWind button{
+    width: 80px;
+    height: 25px;
+    font: 590 22.5px 'Tangerine';
+    /* font-family: 'Tangerine', cursive; */
+    background: #Dc465A;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+}
+
+.dotz{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+}
+
 .dotz div{
 width: 20px;
 height: 20px;
 background: grey;
 border-radius: 50%;
-/* margin: ; */
+ margin:0 10px ; 
+}
+.dotz div:hover{
+background: #E24B5f;
+}
+
+.FlexPic2{
+    width: 920px;
+    height: 350px;
+    border: 30px solid white;
+    background: white;
+    border-radius: 3px;
+    position: absolute;
+    left: 22%;
+    top:90%;
+    display: flex;
+}
+
+.BlockImg{
+    display: flex;
+    position: absolute;
+    bottom: -40px;
+    
+}
+.FlexPic2 h1{
+    font: 500 50px 'Tangerine';
+    text-align: center;
+    margin: -20px 31%;
+}
+
+.FlexPic2 h2{
+    font: 600 35px 'Tangerine';
+    text-align: center;
+    /* margin: -20px 31%; */
 }
 
 
 
+.Pic2{
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+    margin: 20px ;
+}
 
+.Block3{
+    width: 920px;
+    height: 350px;
+    border: 30px solid white;
+    background: white;
+    border-radius: 3px;
+    position: absolute;
+    left: 22%;
+    top:138%;
+}
 
+.Block3 button{
+    width: 200px;
+    height: 40px;
+    font: 500 35px 'Tangerine';
+    /* font-family: 'Tangerine', cursive; */
+    background: #Dc465A;
+    color: white;
+    border: 2px solid #Dc465A;
+    border-radius: 3px;
+    position: absolute;
+    left: 0px;
+}
 
-
-
-
-
+.Block3Video{
+    
+}
 
 
 
